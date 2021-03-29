@@ -1,2 +1,2 @@
 # mini-calculator-with-oop
-this is my first simple project with oop 
+this is my first sample project with oop 
