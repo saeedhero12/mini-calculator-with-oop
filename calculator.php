@@ -27,3 +27,4 @@ class calc
     }
 }
 }
+$calc = new calc();
