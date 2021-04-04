@@ -1,5 +1,21 @@
 <?php
 require 'calculator.php';
+$calc = new calc();
+if (isset($_POST['plus'])) {
+    $cn = $calc->plus($_POST['n1'], $_POST['n2']);
+}
+if (isset($_POST['min'])) {
+    $cn = $calc->min($_POST['n1'], $_POST['n2']);
+}
+if (isset($_POST['div'])) {
+    $cn = $calc->div($_POST['n1'], $_POST['n2']);
+}
+if (isset($_POST['multi'])) {
+    $cn = $calc->multi($_POST['n1'], $_POST['n2']);
+}
+if (isset($_POST['ref'])){
+    $calc->refresh('index4.php');
+}
 ?>
 <!doctype html>
 <html lang="en">
