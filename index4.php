@@ -1,6 +1,6 @@
 <?php
 require 'calculator.php';
-$calc = new calc();
+
 if (isset($_POST['plus'])) {
     $cn = $calc->plus($_POST['n1'], $_POST['n2']);
 }
